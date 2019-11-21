@@ -1,7 +1,7 @@
 <?php
 //處理查詢資料的請求
 $dsn="mysql:host=localhost;charset=utf8;dbname=ajax";
-$pdo=new PDO($dsn,"root","mack");
+$pdo=new PDO($dsn,"root","1114");
 
 $class='1'. sprintf("%02d",$_GET["class"]);
 /* echo $class;
